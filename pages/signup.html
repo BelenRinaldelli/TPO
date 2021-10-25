@@ -16,7 +16,7 @@
 <body>
     <section class="container">
         <div class="item logo"><a href="/index.html">
-                <img class="img-logo center" src="/assets/img/logo.png">
+                <img class="img_logo_center" src="/assets/img/logo.png">
             </a></div>
         <!--No deberian estar los iconos de registrar e inicio sesion
                 Poner al final de la pag iconos redes sociales y agregar preg frecuentes-->
@@ -37,47 +37,53 @@
             </a>
         </div>-->
         <section class="formcontainer">
-            <h1>Crea tu cuenta en Dharmitas</h1>
-            <h2>¡Comprá más rápido y llevá el control de tus pedidos en un solo lugar!</h2>
+            <h3>Crea tu cuenta en Dharmitas</h3>
+            <p>¡Comprá más rápido y llevá el control de tus pedidos en un solo lugar!</p>
             <form>
                 <fieldset>
                     <!--<legend>Información personal</legend>-->
-                    <label for="lastname">Apellido</label>
-                    <input type="lastname" class="form-control" id="lastname" placeholder="Apellido" name="lastname" required>
-                    <br>
-                    <label for="nombre">Nombre</label>
-                    <input type="name" class="form-control" id="name" placeholder="Nombre" name="name" required>
-                    <br>
-                    <label>Género:</label>
                     <div>
-                        <label class="radio-inline">
-                            <input type="radio" name="optradio">Masculino
-                        </label>
-                        <label class="radio-inline">
-                            <input type="radio" name="optradio">Femenino
-                        </label>
-                        <label class="radio-inline">
-                            <input type="radio" name="optradio">Otro
-                        </label>
+                        <label for="lastname">Apellido</label>
+                        <input type="lastname" class="form-control" id="lastname" placeholder="Apellido" name="lastname"
+                            required>
+                        <br>
+                        <label for="nombre">Nombre</label>
+                        <input type="name" class="form-control" id="name" placeholder="Nombre" name="name" required>
+                        <br>
+                        <label>Género:</label>
+                        <div>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio">Masculino
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio">Femenino
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio">Otro
+                            </label>
+                        </div>
                     </div>
                     <br>
-                    <label for="username">Nombre de usuario</label>
-                    <input type="username" class="form-control" id="username" placeholder="Ingresa tu nombre de usuario"
-                        name="username" required>
-                    <br>
-                    <label for="email">E-mail:</label>
-                    <input type="email" class="form-control" id="email"
-                        placeholder="Ingresa tu dirección de correo electrónico" name="email" required>
-                    <br>
-                    <label for="pwd">Contraseña:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Ingresa tu contraseña" name="pwd" required>
-                    <br>
-                    <label for="repeatpwd">Repetir contraseña:</label>
-                    <input type="password" class="form-control" id="repeatpwd" placeholder="Reingresa tu contraseña"
-                        name="repeatpwd" required>
-                    <br>
-                    <!-- Recaptcha   https://www.bronco.co.uk/our-ideas/how-to-add-google-recaptcha-to-a-form-phphtml/ -->
-                    <br>
+                    <div>
+                        <label for="username">Nombre de usuario</label>
+                        <input type="username" class="form-control" id="username"
+                            placeholder="Ingresa tu nombre de usuario" name="username" required>
+                        <br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control" id="email"
+                            placeholder="Ingresa tu dirección de correo electrónico" name="email" required>
+                        <br>
+                        <label for="pwd">Contraseña:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Ingresa tu contraseña"
+                            name="pwd" required>
+                        <br>
+                        <label for="repeatpwd">Repetir contraseña:</label>
+                        <input type="password" class="form-control" id="repeatpwd" placeholder="Reingresa tu contraseña"
+                            name="repeatpwd" required>
+                        <br>
+                        <!-- Recaptcha   https://www.bronco.co.uk/our-ideas/how-to-add-google-recaptcha-to-a-form-phphtml/ -->
+                        <br>
+                    </div>
                     <input type="submit" class="signbutton" value="Crear cuenta">
                     <br>
                     <!--class="form-check-input"  estaba en el input de arriba??-->
@@ -103,7 +109,7 @@
                         </td>
                     </tr>
                 </table>
-        </section>
+            </section>
         </section>
     </section>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>

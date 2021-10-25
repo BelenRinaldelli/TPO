@@ -1,11 +1,11 @@
 /**************** LOGO  ****************/
-.img-logo{
+.img_logo{
     height:90px;
     padding-top: 0.5em;
     padding-left: 0.5em;
     cursor: pointer;
 }
-.img-logo.center{
+.img_logo_center{
     cursor: pointer;
 }
 /**************** SIGN  ****************/
@@ -49,6 +49,10 @@ i{
     font-size: 2em;
     padding: 0.5em;
     padding-top: 0.15em;
+    color: #824185;
+}
+i:hover{
+  color: #cf99cd;
 }
 /**************** SECOND CONTAINER  ****************/
 h1{
@@ -61,7 +65,7 @@ margin: 15px;
     float: left;
     padding: 10px;
   }
-  .news, .moch, .bags{
+  .news, .moch_escolares, .moch_jardin, .bags{
       padding-bottom: 320px;
   }
   .product_img{
@@ -95,6 +99,7 @@ h2{
   fieldset{
     background-color: #5f4c4c;
   }
+
 /****************   Grid   ****************/
 .container{
     display: grid;
