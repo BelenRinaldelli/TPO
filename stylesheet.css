@@ -7,6 +7,9 @@
 }
 .img_logo_center{
     cursor: pointer;
+    height: 100px;
+    padding-left: 50%;
+    padding-top: 1em;
 }
 /**************** SIGN  ****************/
 /*button{
@@ -95,13 +98,20 @@ h2{
 .frec_q{
         font-family: 'Zen Kaku Gothic Antique', sans-serif;
        }
+/****************   Sign in   ****************/
+h3{     
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
 /****************   Form   ****************/
   fieldset{
     background-color: #5f4c4c;
   }
 
+  .container {
+    display: flex;
+  }
 /****************   Grid   ****************/
-.container{
+.maincontainer{
     display: grid;
     grid-template-areas: "logo logo sign"
                          "logo logo socialmedia"
