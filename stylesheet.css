@@ -8,9 +8,9 @@
 .img_logo_center{
     cursor: pointer;
     height: 100px;
-    padding-left: 50%;
-    padding-top: 1em;
 }
+/*padding-left: 50%;
+padding-top: 1em;    A IMG-LOGO-CENTER*/
 /**************** SIGN  ****************/
 /*button{
     height: 40px;
@@ -105,10 +105,6 @@ font-family: 'Zen Kaku Gothic Antique', sans-serif;
 /****************   Form   ****************/
   fieldset{
     background-color: #5f4c4c;
-  }
-
-  .container {
-    display: flex;
   }
 /****************   Grid   ****************/
 .maincontainer{
