@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="/stylesheet.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -19,119 +20,95 @@
 </head>
 
 <body>
-    <section>
-        <div class="col-md-12 text-center" ><a href="/index.html">
-                <img class="img_logo_center" src="/assets/img/logo.png">
-            </a></div>
-        <!--No deberian estar los iconos de registrar e inicio sesion
-                Poner al final de la pag iconos redes sociales y agregar preg frecuentes-->
-        <!--<div class="item sign">
-            <button onclick="location.href='signup.html'">Registrarse</button>
-            <button onclick="location.href='signin.html'">Iniciar sesión</button>
-        </div>
-
-        <div class="item socialmedia">
-            <a href="https://www.instagram.com/dharmitas_indumentaria/?hl=es">
-            <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://www.facebook.com/dharmitas/">
-            <i class="fab fa-facebook"></i>
-            </a>
-            <a href="https://wa.link/ok3ihb">
-            <i class="fab fa-whatsapp"></i>
-            </a>
-        </div>-->
-        <section>
-            <h3>Crea tu cuenta en Dharmitas</h3>
-            <p>¡Comprá más rápido y llevá el control de tus pedidos en un solo lugar!</p>
-            <form>
-                <fieldset>
-                    <!--<legend>Información personal</legend>-->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm">
-                                <label for="lastname">Apellido</label>
-                                <input type="lastname" class="form-control" id="lastname" placeholder="Apellido"
-                                    name="lastname" required>
-                                <br>
-                                <label for="nombre">Nombre</label>
-                                <input type="name" class="form-control" id="name" placeholder="Nombre" name="name"
-                                    required>
-                                <br>
-                                <label>Género:</label>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="male" id="male" value="M" checked>
-                                    <label class="form-check-label" for="male">
-                                      Masculino
-                                    </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="female" id="female" value="F">
-                                    <label class="form-check-label" for="female">
-                                      Femenino
-                                    </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="other" id="other" value="O">
-                                    <label class="form-check-label" for="other">
-                                      Otro
-                                    </label>
-                                  </div>
-                                </div>
-                            <br>
-                            <div class="col-sm">
-                                <label for="username">Nombre de usuario</label>
-                                <input type="username" class="form-control" id="username"
-                                    placeholder="Ingresa tu nombre de usuario" name="username" required>
-                                <br>
-                                <label for="email">E-mail:</label>
-                                <input type="email" class="form-control" id="email"
-                                    placeholder="Ingresa tu dirección de correo electrónico" name="email" required>
-                                <br>
-                                <label for="pwd">Contraseña:</label>
-                                <input type="password" class="form-control" id="pwd" placeholder="Ingresa tu contraseña"
-                                    name="pwd" required>
-                                <br>
-                                <label for="repeatpwd">Repetir contraseña:</label>
-                                <input type="password" class="form-control" id="repeatpwd"
-                                    placeholder="Reingresa tu contraseña" name="repeatpwd" required>
-                                <br>
-                                <!-- Recaptcha   https://www.bronco.co.uk/our-ideas/how-to-add-google-recaptcha-to-a-form-phphtml/ -->
-                                <br>
-                            </div>
+    <div class="col-md-12 text-center"><a href="/index.html">
+            <img class="img_logo_center" src="/assets/img/logo.png">
+        </a></div>
+    <h3 class="col-md-12 text-center">Crea tu cuenta en Dharmitas</h3>
+    <p class="col-md-12 text-center">¡Comprá más rápido y llevá el control de tus pedidos en un solo lugar!</p>
+    <form>
+        <fieldset>
+            <!--<legend>Información personal</legend>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="lastname">Apellido</label>
+                        <input type="lastname" class="form-control" id="lastname" placeholder="Apellido" name="lastname"
+                            required>
+                        <br>
+                        <label for="nombre">Nombre</label>
+                        <input type="name" class="form-control" id="name" placeholder="Nombre" name="name" required>
+                        <br>
+                        <label>Género:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="male" id="male" value="M" checked>
+                            <label class="form-check-label" for="male">
+                                Masculino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="female" id="female" value="F">
+                            <label class="form-check-label" for="female">
+                                Femenino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="other" id="other" value="O">
+                            <label class="form-check-label" for="other">
+                                Otro
+                            </label>
                         </div>
                     </div>
-                    <div class="col-md-12 text-center">
-                    <input type="submit" class="signbutton" value="Crear cuenta">
-                    </div>
                     <br>
-                    <!--class="form-check-input"  estaba en el input de arriba??-->
-                </fieldset>
-            </form>
-            <section>
-                <h2>Preguntas frecuentes</h2>
-                <table>
-                    <!-- VER ERROR GOOGLE MAPS -->
-                    <tr>
-                        <td>
-                            <div class="frec_q">Métodos de pago</div>
-                        </td>
-                        <td>
-                            <div class="frec_q">Ubicación</div>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.9858382010752!2d-58.50897788476897!3d-34.65506058044626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc900444a5c69%3A0x74e88b49ea45dd5!2sAv.%20Juan%20Bautista%20Alberdi%206325%2C%20C1440ABB%20CABA!5e0!3m2!1ses!2sar!4v1635134845699!5m2!1ses!2sar"
-                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="frec_q">Políticas de cambio </div>
-                        </td>
-                    </tr>
-                </table>
-            </section>
-        </section>
-    </section>
+                    <div class="col-sm">
+                        <label for="username">Nombre de usuario</label>
+                        <input type="username" class="form-control" id="username"
+                            placeholder="Ingresa tu nombre de usuario" name="username" required>
+                        <br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control" id="email"
+                            placeholder="Ingresa tu dirección de correo electrónico" name="email" required>
+                        <br>
+                        <label for="pwd">Contraseña:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Ingresa tu contraseña"
+                            name="pwd" required>
+                        <br>
+                        <label for="repeatpwd">Repetir contraseña:</label>
+                        <input type="password" class="form-control" id="repeatpwd" placeholder="Reingresa tu contraseña"
+                            name="repeatpwd" required>
+                        <br>
+                        <!-- Recaptcha   https://www.bronco.co.uk/our-ideas/how-to-add-google-recaptcha-to-a-form-phphtml/ -->
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 text-center">
+                <input type="submit" class="signbutton" value="Crear cuenta">
+            </div>
+            <br>
+            <!--class="form-check-input"  estaba en el input de arriba??-->
+        </fieldset>
+    </form>
+    <br>
+    <h2>Preguntas frecuentes</h2>
+    <table>
+        <!-- VER ERROR GOOGLE MAPS -->
+        <tr>
+            <td>
+                <div class="frec_q">Métodos de pago</div>
+            </td>
+            <td>
+                <div class="frec_q">Ubicación</div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.9858382010752!2d-58.50897788476897!3d-34.65506058044626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc900444a5c69%3A0x74e88b49ea45dd5!2sAv.%20Juan%20Bautista%20Alberdi%206325%2C%20C1440ABB%20CABA!5e0!3m2!1ses!2sar!4v1635134845699!5m2!1ses!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="frec_q">Políticas de cambio </div>
+            </td>
+        </tr>
+    </table>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
