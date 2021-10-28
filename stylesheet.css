@@ -98,12 +98,17 @@ h2{
 .frec_q{
         font-family: 'Zen Kaku Gothic Antique', sans-serif;
        }
+
 /****************   Sign in   ****************/
 h3{     
 font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
+h3 > label{
+    padding: 0.5em;
+}
+
 /****************   Form   ****************/
-  form{
+  .form_signup{
     background-color: whitesmoke;
     padding-top: 0.75em;
     border:black;
@@ -111,6 +116,9 @@ font-family: 'Zen Kaku Gothic Antique', sans-serif;
     border-width: 0.15rem;
     border-left: 0;
     border-right:0;
+  }
+form > h4 > label{
+      padding-bottom: 1em;
   }
 /****************   Grid   ****************/
 .maincontainer{
